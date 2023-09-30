@@ -81,3 +81,11 @@ function printArray(array){
     }
 }
 console.log(printArray([1, 2, 3, "world", null, false, undefined, 62]))
+function reverseArray(array){
+    let array2=[]
+    for(i=array.length-1; i>=0; i--){
+        array2.push(array[i])
+    }
+    return array2
+}
+console.log(reverseArray([1, 2, 3, 4, 5]))
